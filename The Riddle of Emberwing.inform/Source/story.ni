@@ -1,71 +1,63 @@
-"The Riddle of Emberwing" by LeikRad
+"The Riddle of Emberwing - Prologue" by LeikRad
 
-The Whispering Marsh is a room. "O nevoeiro espesso cobre o pântano como um véu. A vegetação sussurra ao vento, e à frente vislumbra-se a entrada de uma aldeia esquecida."
+The Forest is a room. "A dense and silent forest, covered in damp mist. Shadows dance among the ancient trunks."
+The Glen is west of the Forest. "The fog drifts between the trees of the glade. The distant sound of running water mingles with the chirping of unseen birds. In the center of the clearing, half-buried in moss and earth, rises a stone obelisk."
 
-The Village Grounds is a room. "O coração de Ashen Hollow, agora em ruínas. O chão está coberto de cinzas, e o silêncio é pesado como pedra."
-The Village Grounds is south of the Whispering Marsh.
+The Obelisk is a fixed in place thing in the Glen. "A stone structure covered in moss. Glowing runes are engraved on its surface."
+The description of the Obelisk is "The runes glow softly: 'In flame I slept, in storm I woke. My heart was stolen, my wings denied. Seek the eye, the scale, the stone — return them, and I shall soar again.' As you touch the letters, you feel a strange pulse beneath the stone."
 
-The Seer's House is a room. "A antiga habitação da vidente. Fragmentos de vidro colorido ainda reluzem nas janelas partidas, como se aguardassem novas visões."
-The Seer's House is northeast of the Village Grounds.
+After examining the Obelisk for the first time:
+	say "Tarin's heart races. The words echo like a long-forgotten prophecy.";
+	now the Obelisk Discovered is true.
 
-The Shepherd's House is a room. "Uma pequena casa de pedra, outrora modesta mas acolhedora. As cinzas cobrem o limiar, como um manto do passado."
-The Shepherd's House is east of the Village Grounds.
+The Village Path is east of the Forest. "A leaf-covered path leads back to the village of Brelmere, silent and shrouded in mist."
 
-The Farmland is a room. "Os campos outrora férteis jazem queimados e abandonados. Apenas o cheiro de terra queimada permanece como recordação do que foi."
-The Farmland is southeast of the Village Grounds.
+The Village Center is a room. "The heart of Brelmere pulses with unease. Villagers murmur and exchange worried glances."
+The Village Path is west of the Village Center.
 
-The Blacksmith is a room. "Ferramentas retorcidas e metais fundidos espalham-se pelo chão. O calor antigo ainda parece emanar das paredes negras."
-The Blacksmith is south of the Village Grounds.
+The Tavern is north of the Village Center. "The muffled sound of mugs and voices mixes with the smell of ale and aged wood."
 
-The Tavern is a room. "Mesas partidas, bancos tombados e barris chamuscados contam histórias de noites perdidas. Um cheiro adocicado a fumo ainda paira no ar."
-The Tavern is southwest of the Village Grounds.
+The Elder House is northwest of the Village Center. "An old house with an arched roof, where the village elder receives those who seek wisdom."
 
-The Storage House is a room. "Caixas carbonizadas e prateleiras destruídas enchem o espaço. O ar está denso, como se a cinza nunca tivesse deixado o lugar."
-The Storage House is west of the Village Grounds.
+The Shepherd's Cottage is southwest of the Village Center. "Tarin's modest stone-and-thatch cottage feels uneasy beneath the gray sky."
 
-The dragon-scale is a thing. The dragon-scale is portable.
-Understand "escama" or "escama de dragao" as the dragon-scale.
+The Farmland is south of the Shepherd's Cottage. "Open, silent fields where Tarin's sheep once grazed. Now, they seem barren."
 
-A dragon-note is a kind of thing. Understand "nota", "bilhete", "mensagem", or "pista" as a dragon-note.
+The Haunted House is southeast of the Village Center. "A forgotten building, cloaked in ivy and shadows. No one dares approach it."
 
-The Seer's Note is a dragon-note. The description is "Um bilhete antigo: 'Mesmo na dor, o fogo preserva o que é essencial.'"
-The Seer's Note is in the Seer's House.
+Tarin's Mother is a woman in the Shepherd's Cottage. "Miren lies pale and struggling to breathe. The air is thick with the smell of bitter herbs."
+Understand "miren", "mother", "mum", "sick" as Tarin's Mother.
 
-The Blacksmith's Note is a dragon-note. The description is "Um pedaço de pergaminho chamuscado: 'As cinzas escondem verdades que resistem ao tempo.'"
-The Blacksmith's Note is in the Blacksmith.
+The Messenger is a man in the Village Center. "An old man in a soaked hood, carrying a satchel of maps and scrolls."
+The description of the Messenger is "His face is marked by worry. He brings ill tidings."
+Understand "man", "old man", "messenger" as the Messenger.
 
-The Tavern Note is a dragon-note. The description is "Um guardanapo queimado com palavras riscadas: 'Na lareira do lamento, escamas perduram.'"
-The Tavern Note is in the Tavern.
+The Elderly is a man in the Elder House. "The elder sits before the fire, eyes half-closed, as if hearing ancient voices in the crackling flames."
+Understand "elder", "man", "wise man" as the Elder.
 
-To decide whether the player has all dragon-notes:
-	if the player carries the Seer's Note and the player carries the Blacksmith's Note and the player carries the Tavern Note, decide yes;
-	decide no.
+Conversing is an action applying to one visible thing.
+Understand "talk to [someone]" or "speak with [someone]" as conversing.
 
-The notes-message-shown is a truth state that varies. The notes-message-shown is false.
+Carry out conversing:
+	if the noun is Tarin's Mother:
+		say "She murmurs something incomprehensible. The illness seems tied to the land itself... perhaps to the dragon's disappearance?";
+	else if the noun is the Messenger:
+		say "'The dragon... is gone,' he says. 'Emberwing vanished from the Isle of Ash. The crops fail. Beasts grow restless. And now this...' — he points to the stormy sky.";
+	else if the noun is the Elder:
+		say "'The runes glow once more — they haven't done so since Emberwing's time... This may be the end... or a new beginning,' he says gravely.";
+	else:
+		say "[The noun] doesn’t seem interested in talking.";
 
-To try-check-notes:
-	if the player has all dragon-notes and notes-message-shown is false:
-		say "[line break]As três notas formam uma mensagem clara. Algo espera por ti na lareira central da aldeia...";
-		now The dragon-scale is in the Village Grounds;
-		now notes-message-shown is true;
+The Obelisk Discovered is a truth state that varies. The Obelisk Discovered is false.
 
-After taking the Seer's Note for the first time:
-	say "Ao leres a nota, sentes um arrepio. É como se algo antigo estivesse a tentar lembrar-se…";
-	try-check-notes.
+Every turn when the location is the Shepherd's Cottage and the Obelisk Discovered is true:
+	say "The words from the obelisk dance in Tarin's mind... the heart, the scale, the stone... could this be the path to saving his mother?";
 
-After taking the Blacksmith's Note for the first time:
-	say "As palavras ecoam-te na mente, como fragmentos de uma profecia esquecida.";
-	try-check-notes.
+Remembering is an action applying to nothing.
+Understand "remember" or "recall" as remembering.
 
-After taking the Tavern Note for the first time:
-	say "As palavras 'Na lareira do lamento, escamas perduram' brilham por breves instantes. Parece ser a chave para algo.";
-	try-check-notes.
-		
-Every turn:
-	if the player has all dragon-notes and notes-message-shown is false:
-		say "[line break]As três notas formam uma mensagem clara. Algo espera por ti na lareira central da aldeia...";
-		now The dragon-scale is in the Village Grounds;
-		now notes-message-shown is true.
-
-After taking The dragon-scale for the first time:
-	say "Mal tocas a escama, ouves um sussurro ao longe: 'Eu lembro-me de ti...'.";
+Carry out remembering:
+	if the Obelisk Discovered is true:
+		say "'In flame I slept, in storm I woke. My heart was stolen, my wings denied. Seek the eye, the scale, the stone — return them, and I shall soar again.'";
+	else:
+		say "There’s nothing to recall yet... perhaps you need to explore further.";
