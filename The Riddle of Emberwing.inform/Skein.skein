@@ -1,10 +1,2303 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0">
+<Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-0"/>
-  <item nodeId="node-0">
+  <activeNode nodeId="node-262"/>
+  <item nodeId="node-1">
     <command xml:space="preserve">The Riddle of Emberwing</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">The Riddle of Emberwing&#x000A;An Interactive Fiction by LeikRad&#x000A;Release 1 / Serial number 250602 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Village of Brelmere&#x000A;The air smells fresh.&#x000A;&#x000A;You can see a Guiding Stone here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-3"/>
+      <child nodeId="node-8"/>
+      <child nodeId="node-19"/>
+      <child nodeId="node-47"/>
+      <child nodeId="node-48"/>
+      <child nodeId="node-55"/>
+      <child nodeId="node-88"/>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">pick up guiding stone</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Guiding Stone&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Crossroads&#x000A;There is a warning sign here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">go eats</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Birchwood Path Entrance&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(the Guiding Stone)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Crossroads&#x000A;Blahblah.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Entrance to Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">esast</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushroomCount is 0.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-14"/>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">use guiding</command>
+    <result xml:space="preserve">The Guiding Stone vibrates gently and pulls you toward safety...&#x000A;&#x000A;Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;The fresh air seems light compared to the dense fog, you feel relieved.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(the Tree Mushroom)&#x000A;You carefully pick the Tree Mushroom. Your MushCount is now 1.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve"> east</command>
+    <result xml:space="preserve">MushroomCount is 1.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(the Glowing Mushroom)&#x000A;You carefully pick the Glowing Mushroom. Your MushCount is now 2.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushroomCount is 2.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(the Covered Mushroom)&#x000A;You carefully pick the Covered Mushroom. Your MushCount is now 3.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushroomCount is 3.&#x000A;*** Couldn't read from entry 1 of a list which is empty ***&#x000A;&#x000A;*** Run-time problem P50: Attempt to use list item which does not exist.&#x000A;&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">eastt</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">testmush</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Crossroads&#x000A;Blahblah.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+      <child nodeId="node-60"/>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+      <child nodeId="node-31"/>
+      <child nodeId="node-38"/>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+      <child nodeId="node-24"/>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Crossroads&#x000A;Blahblah.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (3 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-25"/>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-28"/>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">esat</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You can see a Covered Mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You can see a Tree Mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (3 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with three slots near some stones that seem to heavy to move on your own.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (4 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with stones that seem to heavy to move on your own.&#x000A;&#x000A;Three oddly shaped slots are carved deep into the stone. One slot now holds a mushroom, which emits a faint, almost imperceptible hum. Two empty slots remain. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-182"/>
+      <child nodeId="node-190"/>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">look at mushslots</command>
+    <result xml:space="preserve">Three oddly shaped slots are carved deep into the stone. They are all currently empty, expectantly waiting. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Crystal Caverns&#x000A;BALGLAGLASDLGDSLG.&#x000A;&#x000A;You can see a Dragon Eye here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">pick up </command>
+    <result xml:space="preserve">(the Dragon Eye)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">esat</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">esat</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">esat</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">ast</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with stones that seem to heavy to move on your own.&#x000A;&#x000A;You can see a MushSlots here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">North</command>
+    <result xml:space="preserve">Birchwood Path West of Birchwood Path is Birchwood Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you barely can see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (3 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">ast</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-63"/>
+      <child nodeId="node-118"/>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">pick up mushroom</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">MushroomCount is 0.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You can see a Glowing Mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">inventoryt</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">pikcup mushroom</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">pickup mushroom</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">picku p mushroom</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">pick up mushroom</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Glowing Mushroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">MushroomCount is 0.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">invetory</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Glowing Mushroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">pick up mushroom</command>
+    <result xml:space="preserve">(the Covered Mushroom)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">invetory</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Covered Mushroom&#x000A;  a Glowing Mushroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">MushroomCount is 0.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You can see a Covered Mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Glowing Mushroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">pick up mushroom</command>
+    <result xml:space="preserve">(the Covered Mushroom)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (3 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (4 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-123"/>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (6 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Covered Mushroom and Glowing Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">eats</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (7 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (8 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (9 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Glowing Mushroom and Covered Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Glowing Mushroom and Covered Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Glowing Mushroom and Covered Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Glowing Mushroom and Covered Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Glowing Mushroom and Covered Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Glowing Mushroom and Covered Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Covered Mushroom and Glowing Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Glowing Mushroom and Covered Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Covered Mushroom and Glowing Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Glowing Mushroom and Covered Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Glowing Mushroom and Tree Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Covered Mushroom, Tree Mushroom and Glowing Mushroom.&#x000A;Removed the Covered Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Covered Mushroom and Tree Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">ast\</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Tree Mushroom, Glowing Mushroom and Covered Mushroom.&#x000A;Removed the Tree Mushroom from Birchwood Path.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;Removed the Glowing Mushroom from Birchwood Path.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (3 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">pickup</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">What do you want to pick up?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You must name something more substantial.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (3 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">What do you want to pick up?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(the Glowing Mushroom)&#x000A;You carefully pick the Glowing Mushroom. Your MushCount is now 1.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with stones that seem to heavy to move on your own.&#x000A;&#x000A;Three oddly shaped slots are carved deep into the stone. They are all currently empty, expectantly waiting. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">insert Glowing Mushroom into mushroom slot</command>
+    <result xml:space="preserve">I only understood you as far as wanting to insert the Glowing Mushroom into the Glowing Mushroom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">insert Glowing Mushroom into mushslot</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">insert Glowing Mushroom into mushslots</command>
+    <result xml:space="preserve">You carefully place the Glowing Mushroom into one of the slots. It settles in with a soft click and emits a steady, faint light.&#x000A;With the Glowing Mushroom placed, one slot is now filled. Two more to go.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">insert Glowing Mushroom into mushslots</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 1. Available: Covered Mushroom and Tree Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with stones that seem to heavy to move on your own.&#x000A;&#x000A;Three oddly shaped slots are carved deep into the stone. One slot now holds a mushroom, which emits a faint, almost imperceptible hum. Two empty slots remain. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">insert Tree Mushroom into mushslots</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 1. Available: Covered Mushroom and Tree Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (3 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with stones that seem to heavy to move on your own.&#x000A;&#x000A;Three oddly shaped slots are carved deep into the stone. One slot now holds a mushroom, which emits a faint, almost imperceptible hum. Two empty slots remain. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">insert Covered Mushroom into mushslots</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">A solid rock wall, marked with those three oddly shaped slots, blocks further passage north. The slots seem to be waiting for something to be placed within them.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">east </command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with stones that seem to heavy to move on your own.&#x000A;&#x000A;Three oddly shaped slots are carved deep into the stone. They are all currently empty, expectantly waiting. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">easdt</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Crossroads&#x000A;Blahblah.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">go east </command>
+    <result xml:space="preserve">Crossroads&#x000A;Blahblah.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You can see a Covered Mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You can see a Covered Mushroom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">pickup</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Crossroads&#x000A;Blahblah.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">pickup</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">pickup mushroom</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">pick up </command>
+    <result xml:space="preserve">(the Covered Mushroom)&#x000A;You carefully pick the Covered Mushroom. Your MushCount is now 1.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 1. Available: Glowing Mushroom and Tree Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 1. Available: Glowing Mushroom and Tree Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">esat</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Crossroads&#x000A;Blahblah.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (3 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (4 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">eaas</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (5 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (6 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 0. Available: Glowing Mushroom, Tree Mushroom and Covered Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Covered Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;A deer picks at the ground. It looks like it's trying to eat something.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(the Covered Mushroom)&#x000A;You carefully pick the Covered Mushroom. Your MushCount is now 1.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">ast</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 1. Available: Glowing Mushroom and Tree Mushroom.&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 1. Available: Glowing Mushroom and Tree Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Glowing Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see a faint glowing near the ground in the fog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(the Glowing Mushroom)&#x000A;You carefully pick the Glowing Mushroom. Your MushCount is now 2.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 2. Available: Tree Mushroom.&#x000A;You notice something peculiar on the ground as you step into the fog.&#x000A;Spawned Tree Mushroom in Birchwood Path.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;You see light eminating from a hollow tree trunk.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(the Tree Mushroom)&#x000A;You carefully pick the Tree Mushroom. Your MushCount is now 3.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with stones that seem to heavy to move on your own.&#x000A;&#x000A;Three oddly shaped slots are carved deep into the stone. They are all currently empty, expectantly waiting. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">insert Mushroom into slot</command>
+    <result xml:space="preserve">Which do you mean, the Tree Mushroom, the Glowing Mushroom or the Covered Mushroom?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">insert Tree Mushroom into slot</command>
+    <result xml:space="preserve">The Tree Mushroom slides into a slot with a snug fit. You hear a faint, woody resonance.&#x000A;With the Tree Mushroom placed, one slot is now filled. Two more to go.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">insert Tree Mushroom into slots</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">insert Glowing Mushroom into slots</command>
+    <result xml:space="preserve">You carefully place the Glowing Mushroom into one of the slots. It settles in with a soft click and emits a steady, faint light.&#x000A;That's two mushrooms in place now. Just one more mystical fungus needed!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">insert Covered Mushroom into slots</command>
+    <result xml:space="preserve">The Covered Mushroom fits neatly into a slot. A subtle earthy scent wafts from it.&#x000A;As the Covered Mushroom settles into the final slot, all three mushrooms begin to glow in powerful unison, their combined light pushing back the shadows. A deep, resonant hum vibrates through the very stone beneath your feet. With a slow, grinding groan that echoes around the clearing, the rock wall shudders and then slides ponderously aside, revealing a dark passage leading north into the mountain's heart!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">go northg</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">go into Crystal Caverns</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Crystal Caverns&#x000A;BALGLAGLASDLGDSLG.&#x000A;&#x000A;You can see a Dragon Eye here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(the Dragon Eye)&#x000A;As your fingers close around the Dragon Eye, a surge of warmth flows up your arm. The gem pulses brightly, and you feel a profound connection to the ancient magic woven into the very stones of these caverns.&#x000A;A subtle tremor runs through the ground, and the air shimmers momentarily. You sense a shift in the pathways of this mystical place A new passage seems to have opened from these Crystal Caverns, leading directly south towards the surface! Simultaneously, you feel that the Trail Entrance itself now holds a direct, albeit hidden, route leading north, straight to these deeper caves.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with stones that seem to heavy to move on your own.&#x000A;&#x000A;Three oddly shaped slots are carved deep into the stone. All three slots are now filled with mushrooms. They seem to pulse with a gentle, collective energy, as if waiting for a final catalyst or perhaps having already fulfilled their purpose.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Crystal Caverns&#x000A;BALGLAGLASDLGDSLG.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Cave Entrance&#x000A;You encroach on a strange terrain formation with stones that seem to heavy to move on your own.&#x000A;&#x000A;Three oddly shaped slots are carved deep into the stone. All three slots are now filled with mushrooms. They seem to pulse with a gentle, collective energy, as if waiting for a final catalyst or perhaps having already fulfilled their purpose.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 3. Available: .&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (2 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 3. Available: .&#x000A;The fog seems particularly uneventful this time.&#x000A; Tried to spawn, but no available mushrooms left.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 3. Available: .&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (4 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 3. Available: .&#x000A;The path is shrouded in mist, revealing nothing out of the ordinary.&#x000A;Mushroom spawn chance failed.&#x000A;Mushroom spawn chance (5 in 10) failed.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 3. Available: .&#x000A;The fog seems particularly uneventful this time.&#x000A; Tried to spawn, but no available mushrooms left.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">MushCount before entering Birchwood: 3. Available: .&#x000A;The fog seems particularly uneventful this time.&#x000A; Tried to spawn, but no available mushrooms left.&#x000A;&#x000A;Birchwood Path&#x000A;A strange fog envelops everything, you can barely see your feet when you look down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-261"/>
+    </children>
+  </item>
+  <item nodeId="node-261">
+    <command xml:space="preserve">goeast</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-262"/>
+    </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Trail Entrance&#x000A;You see a warning sign.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
