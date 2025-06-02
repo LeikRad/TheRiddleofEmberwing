@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Projects\Uni\NDD\TheRiddleofEmberwing\The Riddle of Emberwing.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Work\Projects\TheRiddleofEmberwing\The Riddle of Emberwing.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Projects\Uni\NDD\TheRiddleofEmberwing\The Riddle of Emberwing.inform"
-release to "C:\Projects\Uni\NDD\TheRiddleofEmberwing\The Riddle of Emberwing.materials\Release"
+project folder "C:\Work\Projects\TheRiddleofEmberwing\The Riddle of Emberwing.inform"
+release to "C:\Work\Projects\TheRiddleofEmberwing\The Riddle of Emberwing.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "The Riddle of Emberwing.gblorb"
-storyfile "C:\Projects\Uni\NDD\TheRiddleofEmberwing\The Riddle of Emberwing.inform\Build\output.ulx" include
-ifiction "C:\Projects\Uni\NDD\TheRiddleofEmberwing\The Riddle of Emberwing.inform\Metadata.iFiction" include
+storyfile "C:\Work\Projects\TheRiddleofEmberwing\The Riddle of Emberwing.inform\Build\output.ulx" include
+ifiction "C:\Work\Projects\TheRiddleofEmberwing\The Riddle of Emberwing.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 
@@ -22,7 +22,7 @@ placeholder [IFID] = "675FEB46-8EFA-4D90-8437-D75D485A7656"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2025"
 placeholder [TITLE] = "The Riddle of Emberwing"
-placeholder [AUTHOR] = "LeikRad Chapter 1 - The Whispering winds"
+placeholder [AUTHOR] = "LeikRad"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
