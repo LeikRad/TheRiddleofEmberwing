@@ -10,7 +10,7 @@ release to "C:\Work\Projects\TheRiddleofEmberwing\The Riddle of Emberwing.materi
 
 ! Blorb instructions
 
-storyfile leafname "The Riddle of Emberwing.gblorb"
+storyfile leafname "The Riddle of Emberwing - Prolo.gblorb"
 storyfile "C:\Work\Projects\TheRiddleofEmberwing\The Riddle of Emberwing.inform\Build\output.ulx" include
 ifiction "C:\Work\Projects\TheRiddleofEmberwing\The Riddle of Emberwing.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
@@ -21,7 +21,7 @@ picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 placeholder [IFID] = "675FEB46-8EFA-4D90-8437-D75D485A7656"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2025"
-placeholder [TITLE] = "The Riddle of Emberwing"
+placeholder [TITLE] = "The Riddle of Emberwing - Prologue"
 placeholder [AUTHOR] = "LeikRad"
 placeholder [BLURB] = "A work of interactive fiction."
 
