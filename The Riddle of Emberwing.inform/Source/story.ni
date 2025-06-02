@@ -9,7 +9,13 @@ When play begins:
 	say "You step outside of your small cottage that was heavy with the scent of bitter herbs and an unspoken, pervasive worry. Your mother, Miren, lies on her cot, her breathing shallow and ragged, each rasp a painful reminder of the strange illness gripping her. Outside, the land of Eldwyn itself seems to hold its breath, the vibrant greens muted, the air still and uneasy since the disappearance of Emberwing, its mighty dragon guardian.[paragraph break]";
 	say "A desperate resolve begins to form within you. Old village tales whisper of remedies linked to the land's deepest magic, to the very essence of the dragons. Perhaps answers, and a cure for Miren, lie hidden in the whispering wilds beyond Brelmere, or within forgotten lore known only to a few... Your gaze might instinctively drift towards the old forest path, or perhaps the village elder holds some fragment of wisdom that could light the way.[paragraph break]";
 	
-The Village Center is a room. "The heart of Brelmere pulses with unease. Villagers murmur and exchange worried glances."
+The Village Center is a room. "The heart of Brelmere pulses with an almost tangible unease. Villagers, when seen, murmur in hushed tones and exchange worried glances, their faces etched with the strain of the failing land and Miren's worsening condition. The air itself feels heavy.
+Looking around, you can make out the shapes of the surrounding buildings despite the ever-present mist:
+To the north, the somewhat brighter, though still subdued, entrance of the [Tavern] promises ales and company, though likely little cheer these days.
+Northwest, a thin tendril of smoke curls from the chimney of the [Elder House], a beacon of quiet wisdom in troubled times.
+Your own [Shepherd's Cottage] lies to the southwest, a constant, painful reminder of your mother's plight and the urgency of your quest.
+Further off, to the southeast, the dark and crumbling silhouette of the [Haunted House] broods against the grey sky, a place most villagers shun and speak of only in whispers.
+The main village path continues west, leading towards the old [Forest], while another track heads east towards the [Crossroads] and the uncertain paths beyond."
 
 PHasGuide is a truth state that varies. PHasGuide is false.
 
@@ -293,7 +299,15 @@ Chapter 4 - The Scale of Ember
 The Whispering Marsh is a room. "The thick fog covers the swamp like a veil. The vegetation whispers in the wind, and ahead, the entrance to a forgotten village can be glimpsed."
 
 Whispering Marsh is south of Crossroads.
-The Burnt Village Grounds is a room. "The heart of Ashen Hollow, now in ruins. The ground is covered in ashes, and the silence is as heavy as stone."
+The Burnt Village Grounds is a room. "This was once the heart of Ashen Hollow, but now it's a haunting testament to ruin and sorrow. A thick, choking carpet of grey ash blankets everything, muffling all sound, and the silence is as profound and cold as a forgotten tombstone. The acrid smell of old fires and despair hangs heavy in the still air.
+The skeletal remains of burnt-out buildings stand like blackened, broken teeth against a perpetually sorrowful sky:
+To the northeast, what might have been the [Burnt Seer's House] leans precariously, its empty window sockets like vacant eyes staring into nothingness.
+Eastward, the collapsed roof and charred timbers of the [Burnt Shepherd's House] paint a grim picture of its former life.
+The path heading southeast disappears into the [Burnt Farmland], now utterly desolate and barren.
+Directly south, the forge of the [Burnt Blacksmith] stands as a dark, gaping maw, still radiating a faint, ghostly warmth.
+To the southwest, the [Burnt Tavern] is a chaotic jumble of scorched beams and overturned, broken furniture.
+And to the west, the [Burnt Storage House] is little more than a heap of smoldering, unstable debris.
+The only discernible way out of this place of ashes and memories seems to be north, back towards the eerie embrace of the [Whispering Marsh]."
 
 The Burnt Village Grounds is south of the Whispering Marsh.
 
